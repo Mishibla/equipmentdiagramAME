@@ -18,80 +18,80 @@
       display: none;
     }
     .node::before {
-      content: "▶";
+      content: "➕";
       display: inline-block;
       margin-right: 6px;
       font-size: 10px;
     }
     .expanded > .node::before {
-      content: "▼";
+      content: "➖";
     }
   </style>
 </head>
 <body>
 
 <h2>⚙ Equipment Drive Folder Structure</h2>
-<h3>Click font to expand/unexpand tree diagram</h3>
+<h3>Click ➕ or ➖ to expand/unexpand tree diagram</h3>
 <div id="treeContainer"></div>
 
 <script>
   const jsonData = {
-    "Equipment": {
-      "Asset Management": {
-        "Colossus": {
-            "Docs":{
-                "IOM":{},
-                "WI":{}
+    "📁Equipment": {
+      "📁Asset Management": {
+        "📁Colossus": {
+            "📁Docs":{
+                "📄IOM":{},
+                "📄WI":{}
             },
-            "Control System":{
-                "I&M":{},
-                "In-Service":{}
+            "📁Control System":{
+                "📁I&M":{},
+                "📁In-Service":{}
             },
-            "Inline Compensator":{
-                "I&M":{},
-                "In-Service":{}
+            "📁Inline Compensator":{
+                "📁I&M":{},
+                "📁In-Service":{}
             }
         },
-        "Immobilis": {
-            "Docs":{
-                "IOM":{},
-                "WI":{}
+        "📁Immobilis": {
+            "📁Docs":{
+                "📄IOM":{},
+                "📄WI":{}
             },
-            "Tension Frame":{
-                "I&M":{},
-                "In-Service":{}
+            "📁Tension Frame":{
+                "📁I&M":{},
+                "📁In-Service":{}
             }
         },
-        "Superbail": {
-            "Docs":{
-                "IOM":{},
-                "WI":{}
+        "📁Superbail": {
+            "📁Docs":{
+                "📄IOM":{},
+                "📄WI":{}
             },
-            "USB":{
-                "I&M":{},
-                "In-Service":{}
+            "📁USB":{
+                "📁I&M":{},
+                "📁In-Service":{}
             },
-            "Hydraulic Winch":{
-                "I&M":{},
-                "In-Service":{}
+            "📁Hydraulic Winch":{
+                "📁I&M":{},
+                "📁In-Service":{}
             }
         },
-        "Management": {
-            "Maintenance Dashboard":{},
+        "📁Management": {
+            "📁Maintenance Dashboard":{},
         }
       },
-      "Product Data": {
-        "Colossus": {
-            "Colossus A":{},
-            "Colossus B":{}
+      "📁Product Data": {
+        "📁Colossus": {
+            "📁Colossus A":{},
+            "📁Colossus B":{}
         },
-        "Immobilis": {
+        "📁Immobilis": {
         },
-        "Superbail": {
-            "SB1":{},
-            "SB2":{
-                "MDR":{},
-                "Certs":{}
+        "📁Superbail": {
+            "📁SB1":{},
+            "📁SB2":{
+                "📄MDR":{},
+                "📄Certs":{}
             }
         },
       }
