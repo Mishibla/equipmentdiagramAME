@@ -40,42 +40,82 @@
       "📁Asset Management": {
         "📁Colossus": {
             "📁Docs":{
-                "📄IOM":{},
-                "📄WI":{}
+              "📄IOM":{},
+              "📄WI":{}
             },
             "📁Control System":{
-                "📁I&M":{},
-                "📁In-Service":{}
-            },
-            "📁Inline Compensator":{
-                "📁I&M":{},
-                "📁In-Service":{}
+              "📁Control Unit":{
+                "📁#1":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                },
+                "📁#2":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                }
+              },
+              "📁Control Cable":{
+                "📁#1":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                },
+                "📁#2":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                }
+              },
+              "📁Inline Compensator":{
+                "📁Colossus":{
+                  "📁#A":{
+                    "📄I&M":{},
+                    "📄In-Service":{}
+                  },
+                  "📁#B":{
+                    "📄I&M":{},
+                    "📄In-Service":{}
+                  }
+                },
+              }
             }
-        },
-        "📁Immobilis": {
-            "📁Docs":{
-                "📄IOM":{},
-                "📄WI":{}
-            },
-            "📁Tension Frame":{
-                "📁I&M":{},
-                "📁In-Service":{}
-            }
-        },
+          },
         "📁Superbail": {
             "📁Docs":{
-                "📄IOM":{},
-                "📄WI":{}
+              "📄IOM":{},
+              "📄WI":{}
             },
             "📁USB":{
-                "📁I&M":{},
-                "📁In-Service":{}
-            },
-            "📁Hydraulic Winch":{
-                "📁I&M":{},
-                "📁In-Service":{}
+              "📁350T USB":{
+                "📁#1":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                },
+                "📁#2":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                }
+              },
+              "📁500T USB":{
+                "📁#1":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                },
+                "📁#2":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                }
+              },
+              "📁350T LSB":{
+                "📁#1":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                },
+                "📁#2":{
+                  "📄I&M":{},
+                  "📄In-Service":{}
+                }
+              }
             }
-        },
+          },
         "📁Management": {
             "📁Maintenance Dashboard":{},
         }
@@ -97,7 +137,6 @@
       }
     }
   };
-
   function buildTree(data) {
     const ul = document.createElement("ul");
 
